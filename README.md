@@ -4,20 +4,16 @@ This code is provided as-is and intended as a reference for how our GFlowNet imp
 
 Cite as (bibtex)
 
-> @article{towardsgflownet2023,
-  title   = "",
-  author  = "Shen, Max Walt",
-  journal = "",
-  publisher = "",
-  year    = "2023",
+```
+@InProceedings{towardsunderstandinggflownets,
+  title = 	 {Towards Understanding and Improving GFlowNet Training},
+  author =       {Shen, Max Walt and Bengio, Emmanuel and Hajiramezanali, Ehsan and Loukas, Andreas and Cho, Kyunghyun and Biancalani, Tommaso},
+  booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
+  year = 	 {2023},
+  series = 	 {Proceedings of Machine Learning Research},
+  publisher =    {PMLR}
 }
-> @InProceedings{towardsunderstandinggflownets,
->   title = 	 {Towards Understanding and Improving GFlowNet Training},
->   author =       {Shen, Max Walt and Bengio, Emmanuel and Hajiramezanali, Ehsan and Loukas, Andreas and Cho, Kyunghyun and Biancalani, Tommaso},
->   booktitle = 	 {Proceedings of the 40th International Conference on Machine Learning},
->   year = 	 {2023},
->   series = 	 {Proceedings of Machine Learning Research},
->   publisher =    {PMLR},
+```
 
 ### Code references
 Our implementation of substructure-guided GFlowNets is in `gflownet/GFNs/model.py`.
